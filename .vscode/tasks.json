@@ -1,0 +1,20 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+        {
+            "type": "Live Preview",
+            "workspacePath": "c:\\xampp\\htdocs\\Cursos\\typescript\\typeScript",
+            "problemMatcher": [],
+            "label": "Live Preview: Run Server"
+        },
+        {
+            "type": "typescript",
+            "tsconfig": "video/tsconfig.json",
+            "problemMatcher": [
+                "$tsc"
+            ],
+            "group": "build",
+            "label": "tsc: build - video/tsconfig.json"
+        }
+    ]
+}
